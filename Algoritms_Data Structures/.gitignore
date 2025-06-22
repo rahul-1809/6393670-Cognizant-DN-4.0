@@ -1,0 +1,54 @@
+# ===========================
+# Java-specific
+# ===========================
+*.class
+*.jar
+*.war
+*.ear
+
+# Generated files
+*.log
+*.tmp
+*.swp
+
+# Java backup files
+*.bak
+
+# Eclipse & IntelliJ IDEA project files (optional, if teammates use other IDEs)
+*.iml
+*.ipr
+*.iws
+.idea/
+*.classpath
+*.project
+.settings/
+
+# VS Code
+.vscode/
+
+# MacOS & Linux system files
+.DS_Store
+Thumbs.db
+
+# Java output folders (you might use any of these)
+bin/
+out/
+target/
+build/
+
+# Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Ignore test reports and coverage
+test-output/
+surefire-reports/
+jacoco.exec
+
+# Environment files 
+.env
