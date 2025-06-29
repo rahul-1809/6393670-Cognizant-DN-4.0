@@ -1,0 +1,21 @@
+# === Java Compiled Files ===
+*.class
+
+# === Maven Target Directory ===
+target/
+
+# === Eclipse Files ===
+.project
+.classpath
+.settings/
+
+# === IntelliJ (if used) ===
+.idea/
+*.iml
+
+# === VS Code ===
+.vscode/
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
