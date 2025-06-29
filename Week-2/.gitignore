@@ -4,6 +4,10 @@
 # === Maven Target Directory ===
 target/
 
+# === Maven Test Reports (Optional) ===
+surefire-reports/
+failsafe-reports/
+
 # === Eclipse Files ===
 .project
 .classpath
@@ -19,3 +23,8 @@ target/
 # === OS-specific ===
 .DS_Store
 Thumbs.db
+
+# === Logs and Backups ===
+*.log
+*.bak
+*.swp
