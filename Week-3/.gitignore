@@ -1,0 +1,48 @@
+# Java and Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# IDEs
+# Eclipse
+*.iml
+.project
+.classpath
+.settings/
+# IntelliJ
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Build tools
+.mvn/
+!**/mvn/wrapper/**
+
+# Application properties (optional if it contains sensitive data)
+# Uncomment if you want to exclude
+# src/main/resources/application.properties
+# src/main/resources/application.yml
+
+# Misc
+*.tmp
+*.bak
+*.swp
+
+# Database files (if any H2/SQLite etc. local)
+*.h2.db
+*.mv.db
+*.db
+
+# Test result files
+test-output/
+surefire-reports/
