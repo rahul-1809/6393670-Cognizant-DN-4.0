@@ -1,0 +1,31 @@
+.App {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+/* Styles for EventManager component */
+.event-manager {
+  margin-bottom: 40px;
+}
+
+.button-stack {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+}
+
+.button-stack button {
+  margin-bottom: 5px;
+}
+
+/* Styles for CurrencyConverter component */
+.form-row {
+  margin-bottom: 10px;
+  text-align: left;
+  display: inline-block;
+}
+
+.form-row label {
+  display: inline-block;
+  width: 80px;
+}
